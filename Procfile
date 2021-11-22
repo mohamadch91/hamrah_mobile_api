@@ -1,1 +1,1 @@
-web: gunicorn hamrah.wsgi
+web: gunicorn --chdir hamrah hamrah.wsgi
